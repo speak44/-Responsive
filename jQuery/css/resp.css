@@ -1,0 +1,91 @@
+@media all and (max-width:767px ){
+	.banner-downloadBox,
+	.banner-featureBox,
+	.featureWrap,
+	.downloadBox-link img,
+	.contentText-introWrap,
+	.contentText-resourceWrap,
+	.content-bgico,
+	.ftNav,
+	.ftNav-link,
+	.copyright,
+	.copyright-ver.clear,
+	.copyright-ver .fl,
+	.copyright-link{
+		float: none;
+		width: 100%;
+	}
+	.copyright-introI{
+		float: none;
+		display: inline-block;
+	}
+	.copyright-ver,
+	.copyright-intro{
+		text-align: center;
+	}
+	.content-ico{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+@media all and (max-width:715px ){
+	.hd-icoNav{
+		display: none;
+	}
+	.hd-textNav{
+		float: left;
+	}
+	.logo,
+	.logo-link,
+	.introLogo,
+	.nav,
+	.searchbar,
+	.navI,
+	.bookIWrap{
+		float: none;
+	}
+	.logo,
+	.introLogo,
+	.nav,
+	.searchbar,
+	.bookIWrap{
+		width: 100%;
+		text-align: center;
+	}
+	.navI{
+		font-size: 12px;
+	}
+	.navI-link, .navI-link:hover{
+		border: none;
+	}
+	.logo-link{
+		display: inline-block;
+	}
+	.searchbar{
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.navbar{
+		background-color:transparent;
+		border-radius:0;
+		box-shadow:none;
+		border: none;
+	}
+	.innerWrap{
+		border-radius: 10px;
+	}
+	.banner{
+		border-radius: 10px 10px 0 0;
+	}
+}
+@media all and (max-width:479px ){
+	.nav{
+		display: none;
+	}
+	.navSel{
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
